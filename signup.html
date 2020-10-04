@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<style>
+    *{
+        padding: 30;
+    }
+    a{
+        text-decoration: none;
+    }
+.details{width: 500px;
+    padding: 20px;
+
+    background-color: #fbfbfb;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 10px;
+    border: 1px black;
+    box-shadow: 1px 1px 20px #000729;
+}
+
+body{
+    background-color: #00545d;
+    text-align: center;
+    font-family: papyrus;
+    background-image: url("womanback.png");
+}
+
+p{
+    font-size: 20px;
+}
+
+.h1{
+    color: black;
+    font-style: inherit;
+    font-family: segoe script;
+    text-decoration: none;
+    font-size: 50px;
+}
+
+button{
+    
+    background: transparent;
+    border: 1px solid #fff;
+    cursor: pointer;
+
+}
+
+input{
+    background: transparent;
+}
+.back{
+    display: flex ;
+    
+    left: 200%;
+}
+
+
+
+
+</style>
+<script src="app.js"></script>
+<body>
+    <form name="myform" method="post" action="abc.jsp" onsubmit="return validateform()">
+    <a href="index.html" class="h1">Creative </a>
+    <div class="details">
+        <h2>Create account</h2>
+      
+        <p>  Name<br> <input type="text"  name="name"> </p>
+
+        <p> Email<br> <input type="email"></p>
+
+        <p>  Password<br> <input type="password" name="password" placeholder="at least 6 characters"></p>
+
+        <p> Re-enter Password<br> <input type="password"></p>
+
+        <a href="tour.html"><button>Sign Up</button></a>
+      
+
+    </div>
+    </form>
+
+
+
+</body>
+</html>
